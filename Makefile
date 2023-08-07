@@ -1,6 +1,6 @@
 CXX       :=	g++
 C      :=	gcc
-CXX_FLAGS := -O3 -std=c++11 -pthread -lmnl -lnetfilter_queue
+CXX_FLAGS := -O3 -std=c++11 -pthread -lmnl -lnetfilter_queue -fpermissive
 C_FLAGS :=	-pthread -lmnl -lnetfilter_queue
 SRCFLAGS = $(wildcard $(SRC)/*.cpp)  $(wildcard $(SRC_MAC_LAYER)/*.cpp)  $(wildcard $(SRC_MOBILITY_MODEL)/*.cpp)  $(wildcard $(SRC_PDCP_LAYER)/*.cpp)  $(wildcard $(SRC_PHY_LAYER)/*.cpp)  $(wildcard $(SRC_UE)/*.cpp)
 SRCNETFILTER = $(wildcard $(SRC_NETFILTER)/*.c)

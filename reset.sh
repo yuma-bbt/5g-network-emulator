@@ -1,0 +1,10 @@
+rm -rf ./logs/50GHz/*
+rm -rf ./logs/100GHz/*
+rm -rf ./logs/150GHz/*
+rm -rf ./logs/200GHz/*
+rm -rf ./logs/250GHz/*
+rm -rf ./logs/300GHz/*
+rm -rf ./logs/mmwave/* 
+rm -rf ./logs/sub6/*
+rm -rf ./logs/[0-9]_[0-9][0-9]*
+rm -rf ~/testdata/*

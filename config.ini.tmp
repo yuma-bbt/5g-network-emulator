@@ -83,7 +83,7 @@ var_perc: 0.10
 pkt_size: 12000
 # MOBILITY MODEL CONFIG
 mobility_type: 1
-pos_x: 200
+pos_x: 20
 pos_y: 0
 random_init: false
 speed: 10.0
@@ -121,8 +121,8 @@ cqi_mode: 0
 tx_power: 45
 tx_gain: 25
 rx_gain: 0
-frequency: 300000000000
-bandwidth: 2000000000
+frequency: 3500000000
+bandwidth: 100000000
 
 #######################
 # PDCP/RLC Layer CONFIG
